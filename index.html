@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de la Serpiente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Juego de la Serpiente</h2>
+    <p>Realizado por [Rilder Leandro Pizo 11B]</p>
+
+    <div id="game-info">
+        <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+        <button id="start">Iniciar Juego</button>
+    </div>
+
+    <div id="board">
+        <span id="apple"></span>
+    </div>
+
+    <div id="historial">
+        <h3>Historial de Partidas</h3>
+        <table>
+            <thead>
+                <tr><th>Nombre</th><th>Fecha y Hora</th><th>Manzanas</th></tr>
+            </thead>
+            <tbody id="historial-body"></tbody>
+        </table>
+        <button id="clear-history">Borrar Historial</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
